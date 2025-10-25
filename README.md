@@ -86,6 +86,44 @@ SmartScheduler/
 └─ LICENSE
 ```
 ---
+# ⚡ Optional: Make run automatically on startup
+
+- Convert to .exe
+- Use PyInstaller to create an executable so you don’t have to open Python manually:
+
+```
+pip install pyinstaller
+pyinstaller --noconsole --add-data "assets:assets" main.py
+```
+
+-The executable will be in the dist/ folder.
+-You can rename it if you want.
+
+## Run on Windows startup
+
+- Press Win + R, type shell:startup and hit Enter.
+- Copy your .exe shortcut into this folder.
+
+Now Ivy~ will start automatically whenever your PC boots up 
+
+# Run on Linux startup
+
+- Add a cron job with @reboot:
+```
+crontab -e
+```
+- Add a line like:
+```
+@reboot /usr/bin/python3 /path/to/main.py
+```
+
+# Run on Mac startup
+
+- Use Login Items in System Preferences → Users & Groups → Login Items.
+
+- Add your .app or script wrapped in Automator.
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License 💌
