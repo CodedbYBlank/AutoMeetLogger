@@ -236,7 +236,7 @@ def daily_schedule():
     today_meetings = meetings[today_day]
 
     #  Send today’s schedule once
-    schedule_msg = " Hey~ here’s today’s schedule 💕\n\n"
+    schedule_msg = " Hey~ here’s today’s schedule \n\n"
     for join_time, leave_time, _ in today_meetings:
         schedule_msg += f"👉 {join_time} → {leave_time}\n"
     send_log(schedule_msg.strip())
