@@ -38,9 +38,10 @@
 - Find your chat ID.
 - add your token & chat ID.
 
+```
 TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
-
+```
 ---
 ## Meeting links
 
@@ -80,7 +81,6 @@ SmartScheduler/
 │  ├─ join_button.png
 │  └─ leave_button.png
 ├─ main.py
-├─ config_example.py
 ├─ requirements.txt
 ├─ README.md
 └─ LICENSE
