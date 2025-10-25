@@ -96,7 +96,7 @@ pip install pyinstaller
 pyinstaller --noconsole --add-data "assets:assets" main.py
 ```
 
--The executable will be in the dist/ folder.
+- The executable will be in the dist/ folder.
 -You can rename it if you want.
 
 ## Run on Windows startup
@@ -104,7 +104,7 @@ pyinstaller --noconsole --add-data "assets:assets" main.py
 - Press Win + R, type shell:startup and hit Enter.
 - Copy your .exe shortcut into this folder.
 
-Now Ivy~ will start automatically whenever your PC boots up 
+Now It will start automatically whenever your PC boots up 
 
 # Run on Linux startup
 
